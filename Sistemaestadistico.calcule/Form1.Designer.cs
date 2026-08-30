@@ -29,6 +29,7 @@ namespace Sistemaestadistico.calcule
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lbl1 = new System.Windows.Forms.Label();
             this.lbl2 = new System.Windows.Forms.Label();
             this.lbl3 = new System.Windows.Forms.Label();
@@ -41,6 +42,7 @@ namespace Sistemaestadistico.calcule
             // lbl1
             // 
             this.lbl1.AutoSize = true;
+            this.lbl1.BackColor = System.Drawing.Color.AliceBlue;
             this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1.Location = new System.Drawing.Point(19, -4);
             this.lbl1.Name = "lbl1";
@@ -52,8 +54,9 @@ namespace Sistemaestadistico.calcule
             // lbl2
             // 
             this.lbl2.AutoSize = true;
+            this.lbl2.BackColor = System.Drawing.Color.AliceBlue;
             this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(12, 130);
+            this.lbl2.Location = new System.Drawing.Point(19, 277);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(255, 25);
             this.lbl2.TabIndex = 1;
@@ -62,8 +65,9 @@ namespace Sistemaestadistico.calcule
             // lbl3
             // 
             this.lbl3.AutoSize = true;
+            this.lbl3.BackColor = System.Drawing.Color.AliceBlue;
             this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl3.Location = new System.Drawing.Point(19, 467);
+            this.lbl3.Location = new System.Drawing.Point(12, 587);
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(345, 25);
             this.lbl3.TabIndex = 2;
@@ -72,11 +76,12 @@ namespace Sistemaestadistico.calcule
             // btn1
             // 
             this.btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btn1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn1.BackgroundImage")));
             this.btn1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.Color.Red;
-            this.btn1.Location = new System.Drawing.Point(162, 60);
+            this.btn1.Location = new System.Drawing.Point(210, 60);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(719, 67);
+            this.btn1.Size = new System.Drawing.Size(754, 214);
             this.btn1.TabIndex = 3;
             this.btn1.Text = "Procesar dataset";
             this.btn1.UseVisualStyleBackColor = false;
@@ -92,7 +97,7 @@ namespace Sistemaestadistico.calcule
             // 
             // txt2
             // 
-            this.txt2.Location = new System.Drawing.Point(70, 168);
+            this.txt2.Location = new System.Drawing.Point(12, 305);
             this.txt2.Multiline = true;
             this.txt2.Name = "txt2";
             this.txt2.Size = new System.Drawing.Size(882, 279);
@@ -100,7 +105,7 @@ namespace Sistemaestadistico.calcule
             // 
             // txt3
             // 
-            this.txt3.Location = new System.Drawing.Point(70, 495);
+            this.txt3.Location = new System.Drawing.Point(12, 632);
             this.txt3.Multiline = true;
             this.txt3.Name = "txt3";
             this.txt3.Size = new System.Drawing.Size(882, 191);
@@ -111,7 +116,8 @@ namespace Sistemaestadistico.calcule
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ClientSize = new System.Drawing.Size(1069, 698);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1393, 826);
             this.Controls.Add(this.txt3);
             this.Controls.Add(this.txt2);
             this.Controls.Add(this.txt1);
